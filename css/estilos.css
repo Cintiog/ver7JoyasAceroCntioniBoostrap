@@ -1,0 +1,489 @@
+/* css de Joyas de Acero GW */
+/* APLICANDO GRIDS Y CELULAR */
+/* css de index.html*/
+
+   /* reset */
+   
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background: black; 
+}
+ 
+
+/* estilo de header */ /*header*/
+
+.menu__navega{
+    position:fixed;
+    align-items: center;
+    display: flex;
+    justify-content: safe;
+    background-color: rgb(224, 216, 168);
+    width: 100%;
+   
+ }
+
+.menu__navega div img{
+    width: 50%;
+    margin: 0.5rem ;
+
+
+}
+/* estilos del menu */
+
+
+.menu__navega ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6rem;
+    text-decoration: none;    
+    display: flex;
+    margin: 0.1rem 0.01rem 0.1rem 0rem;
+    padding: 0.1rem;
+    border: 0.5rem;
+    border: 0.1rem solid brown;
+    border-radius: 0.1rem;
+    background-color: wheat;
+}  
+
+a{
+    color:black;
+    text-decoration: none;
+    text-shadow: 1px 1px whitesmoke;
+    font-weight: bold;
+   
+}
+
+
+
+.titulo__foto{
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "nombre__titulo imagen__collar";        
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+.nombre__titulo{
+    grid-area: nombre__titulo;
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(13, 13, 115);
+    background-color: white;
+    display:inline block;
+    margin: 7rem 8rem 1rem 5rem;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 4px solid royalblue;
+    margin-top: 8rem;
+    overflow: hidden; 
+}
+
+.imagen__collar{
+    grid-area: imagen__collar;
+    width: 70%;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 4px solid royalblue;
+    overflow: hidden; 
+    display: none;
+}
+
+.monto__parrafo{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 0.7rem;
+    color: rgb(114, 4, 4);       
+    background-color: wheat;
+    margin: 1.0rem;
+    border: 0.5px solid green;
+    padding: 0.2rem;
+    overflow: hidden;
+    display:inline block;
+    width: 70%;
+}
+
+.notas{
+    background-color: whitesmoke;
+    font-size: 0.7rem;
+    margin: 1rem;
+    border-radius: 80px;
+    border: 3px solid green;
+    padding: 15px;
+    overflow: hidden;
+    width: 70%;
+}
+.nota__primera{
+    text-decoration: underline;
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+        
+}
+
+.nota__segunda{
+    text-align: left;
+    font-size: 0.7rem;
+    text-decoration: underline;
+    margin: 15px;
+    font-family: 'Roboto', sans-serif bold;
+        
+}
+
+h2{
+    text-align: left;
+    margin: 15px;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 0.7rem;       
+}
+
+h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 0.7rem;       
+    background-color: whitesmoke;
+    margin: 15px 20px 20px 20px;
+    border-radius: 60px;
+    border: 2px solid green;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.medios__pago{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 0.7rem;
+    color: rgb(114, 4, 4);       
+    background-color: whitesmoke;
+    margin: 15px 20px 20px 20px;
+    border-radius: 60px;
+    border: 3px solid green;
+    padding: 20px;
+    overflow: hidden;
+    width: 70%;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 0.7rem;       
+    background-color: whitesmoke;
+    margin: 1rem;
+    align-items: center;
+    border: 0.4rem solid rgb(3, 74, 3);
+    padding: 5px;
+    overflow: hidden;
+    width: 70%;
+    
+ }  
+
+.inicio{
+    color:black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 0.7rem;
+    background-color: cornsilk;
+    display: inline-block;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid yellow;
+}
+
+
+/*                            Productos                       */
+
+
+.contenedor__imagenes{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr ;
+    grid-template-areas: "foto__uno foto__dos foto__tres";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}    
+
+.titulo__productos{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 25px;
+    color: rgb(114, 4, 4);       
+    background-color: wheat;
+    margin: 100px 20px 20px 50px;
+    border: 5px solid rebeccapurple;
+    padding: 15px;
+    overflow: hidden;
+    display: inline-block;
+}   
+ 
+.nota__producto{
+    text-align: center;
+    font-family:'Roboto', sans-serif bold;
+    font-size: 20px;       
+    background-color: whitesmoke;
+    display: inline-block;
+    margin: 15px 20px 20px 50px;
+    border-radius: 60px;
+    border: 2px solid green;
+    padding: 20px;
+    overflow: hidden;    
+}
+
+
+.foto__1{
+   grid-area: foto__uno;
+   max-width: 70%;
+   height: auto;
+   padding: 5px;
+   display: block;
+   margin: auto;
+}
+
+.foto__2{
+    grid-area: foto__dos;
+    max-width: 70%;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin: auto; 
+}
+
+.foto__3{
+    grid-area: foto__tres;
+    max-width: 70%;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+
+/*                     Lista de Productos               */
+
+
+
+.lista ul li{
+    display: flex;
+    color: black;
+    text-shadow: 1px 1px whitesmoke;
+    background-color: rgb(71, 142, 118);
+    font-size: 0.5rem;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0.4rem;
+    padding: 0.5rem;
+    position: relative;
+    border: 2px solid brown;
+   
+}
+
+.lista ul li:hover{
+    background-color: brown;
+}
+
+/* estilos sub-menu */
+
+.lista ul li .subMenu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0x;
+    right: 5px;
+    padding: 0px;
+    background-color: rgb(155, 215, 195);
+    align-items: left;
+}
+
+.lista ul li .subMenu li{
+    font-size: 0.7rem;
+}
+
+.lista ul li:hover > .subMenu{
+    display: block;
+}
+
+.footer__uno{
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 0.7rem;       
+    background-color: whitesmoke;
+    margin: 100px 20px 20px 50px;
+    border: 30px;
+    border: 3px solid rgb(3, 74, 3);
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+/*                  Contacto                */
+
+
+.formulario__contacto{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    font: bold;       
+    background-color: whitesmoke;
+    margin: 100px 20px 20px 50px;
+    border: 4px solid rgb(71, 142, 118);
+    padding: 20px;
+    overflow: hidden; 
+}
+
+.nombre__yapellido{
+    text-align: left;
+    font-size: 20px;       
+    background-color: whitesmoke;
+    margin: 15px 20px 20px 50px;
+    border: 2px solid green;
+    padding: 5px;
+    overflow: hidden;  
+} 
+.email__completo{
+    text-align: left;
+    font-size: 20px;       
+    background-color: whitesmoke;
+    margin: 15px 20px 20px 50px;
+    border: 2px solid green;
+    padding: 5px;
+    overflow: hidden;  
+} 
+.telefono__1{
+    text-align: left;
+    font-size: 20px;       
+    background-color: whitesmoke;
+    margin: 15px 20px 20px 50px;
+    border: 2px solid green;
+    padding: 5px;
+    overflow: hidden;  
+} 
+
+.submit__submit{
+    text-align: left;
+    font-size: 20px;       
+    background-color: whitesmoke;
+    margin: 15px 20px 20px 50px;
+    border: 2px solid green;
+    padding: 5px;
+    overflow: hidden;  
+} 
+
+.reset__reset{
+    text-align: left;
+    font-size: 20px;       
+    background-color: whitesmoke;
+    margin: 15px 20px 20px 50px;
+    border: 2px solid green;
+    padding: 5px;
+    overflow: hidden;  
+} 
+
+
+/*                         Sobre Nosotros                        */
+
+
+.sobre__nosotros{
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 20px;       
+    background-color: whitesmoke;
+    display: inline-block;
+    margin: 100px 20px 20px 20px;
+    border-radius: 60px;
+    border: 2px solid green;
+    padding: 10px;
+    overflow: hidden;
+
+}
+.relato__nosotros{
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 20px;       
+    background-color: whitesmoke;
+    display: inline-block;
+    margin: 15px 20px 20px 20px;
+    border-radius: 60px;
+    border: 2px solid green;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* media queries */
+
+
+@media screen and (min-width:600px){
+    
+    .nombre__titulo{
+        text-align: center;
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 45px; 
+        color: rgb(13, 13, 115);
+        background-color: white;
+        display: inline-block;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: 4px solid royalblue;
+        margin-top: 100px;
+        left: 10rem;
+        overflow: hidden; 
+        width: 70%;
+        
+    }
+    
+    .imagen__collar{
+        margin-top: 10rem;
+        left: 1rem;
+        display: flex;
+    }
+
+
+    .monto__parrafo{
+         font-size: 1rem;
+         width: 97%;
+    }
+
+    .notas{
+        width: 97%;
+    }
+    
+    .nota__primera{
+        text-decoration: underline;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Roboto', sans-serif bold;
+    }
+
+    .nota__segunda{
+        font-size: 1rem;
+    }
+
+    h2{
+       font-size: 1rem;       
+    }
+
+    h3{
+       font-size: 1rem;       
+    }
+
+    .medios__pago{
+        font-size: 1rem;
+        width: 97%;
+    }
+
+    footer{
+        font-size: 1rem;       
+        width: 97%;
+    }  
+}
