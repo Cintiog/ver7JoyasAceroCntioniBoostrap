@@ -434,8 +434,8 @@ footer{
     display: inline-block;
     /*margin: 15px 20px 250px 20px;*/
     border-radius: 60px;
-    border: 2px solid green;
-    padding: 20px;
+    border: 6px solid green;
+    padding: 10px;
     overflow: hidden;
     margin-top: 150px;
 
