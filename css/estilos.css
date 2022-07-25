@@ -56,7 +56,7 @@ body{
 }
 
 .navbar{
-     display:inline block;
+     /*display:inline block;*/
 }
 
 
@@ -225,7 +225,7 @@ h3{
 .contenedor__imagenes{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1.7fr ;
     grid-template-areas: "foto__uno foto__dos foto__tres";
     justify-content: center;
     justify-items: center;
@@ -240,7 +240,7 @@ h3{
     font-size: 25px;
     color: rgb(114, 4, 4);       
     background-color: wheat;
-    margin: 100px 20px 20px 50px;
+    margin: 150px 20px 20px 50px;
     border: 5px solid rebeccapurple;
     padding: 15px;
     overflow: hidden;
@@ -303,19 +303,6 @@ h3{
     box-shadow: 3px 3px black;
     transition: 2s;
 }
-/*.footer{
-    text-align: center;
-    font-family: 'Roboto', sans-serif bold;
-    font-size: 0.7rem;       
-    background-color: whitesmoke;
-    margin: 1rem 1rem 1rem 2rem;
-    align-items: center;
-    border: 0.4rem solid rgb(3, 74, 3);
-    padding: 5px;
-    overflow: hidden;
-    width: 70%;
-    
-}*/  
 
 /*                     Lista de Productos               */
 
@@ -455,7 +442,7 @@ h3{
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
-    overflow-y: auto;
+    
 }
 .relato__nosotros{
     text-align: center;
@@ -503,12 +490,13 @@ h3{
         
     }
     
-    .nav-item{
+    .nav-link{
         color:black;
         text-shadow: 1px 1px whitesmoke;
         font-weight: bold;
-        font-size: 0.3rem;
+        font-size: 0.6rem;
         align-items: center;
+        /*display:flex*/
     }
 
 
@@ -522,12 +510,13 @@ h3{
     .monto__parrafo{
          font-size: 1rem;
          width: 90%;
-         margin-right: 4.5rem;
+         margin-left: 1rem;
         
     }
 
     .notas{
         width: 80%;
+        margin-left: 2rem;
     }
     
     .nota__primera{
@@ -554,6 +543,7 @@ h3{
         font-size: 0.7rem;
         width: 80%;
         text-align: center;
+        margin-left: 2rem;
               
     }
 
@@ -561,6 +551,7 @@ h3{
         font-size: 0.7rem;       
         width: 80%;
         text-align: center;
+        margin-left: 2rem;
     }  
     .inicio{
         color:black;
@@ -576,13 +567,22 @@ h3{
         width: 20%;
     }
 
+     /* sobre nosotros */
+     
+     
+
 
 
     /* pagina producto  */
-
+    body{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top , rgb(128, 39, 39) , beige);
+    
+    }
 
     .titulo__productos{
-        margin: 50px 20px 20px 50px;
+        margin: 150px 20px 20px 50px;
       
     }   
     .nota__producto{
@@ -626,17 +626,16 @@ h3{
          transition: 1s;
      }
  }
-    @media (min-width: 751px) and (max-width: 1800){
+    @media (min-width: 751px) and (max-width: 2140){
 
         .imagen__collar{
                 margin-top: 10rem;
-                left: 1rem;
+                margin-left: 1rem;
                 display: flex;
             }       
 
     }
-
-        
+ 
    
  
         
