@@ -20,7 +20,7 @@ body{
 
 /* estilo de header */ /*header*/
 
-.menu__navega{
+/*.menu__navega{
     position:fixed;
     align-items: center;
     display: flex;
@@ -37,7 +37,8 @@ body{
     width: 70%;
     margin: 0.5rem ;
 
-}
+}*/
+
 /*   menu de boostrap   */
 
 
@@ -47,16 +48,11 @@ body{
 }
 
 .nav-link{
-    
     color:black;
     text-shadow: 1px 1px whitesmoke;
     font-weight: bold;
     font-size: 1rem;
-   
-}
-
-.navbar{
-     /*display:inline block;*/
+ 
 }
 
 
@@ -192,18 +188,7 @@ h3{
     width: 70%;
     
  }  
-.footer__boostrap{
-    text-align: center;
-    font-family: 'Roboto', sans-serif bold;
-    font-size: 0.7rem;       
-    background-color: whitesmoke;
-    margin: 1rem 1rem 1rem 2rem;
-    align-items: center;
-    border: 0.4rem solid rgb(3, 74, 3);
-    padding: 2px;
-    overflow: hidden;
-    width: 90%;
-}    
+
 .inicio{
     color:black;
     text-align: center;
@@ -374,16 +359,20 @@ h3{
     border: 4px solid rgb(71, 142, 118);
     padding: 20px;
     overflow: hidden; 
+    margin-top: 150px;
+    width: 80%;
+
 }
 
 .nombre__yapellido{
     text-align: left;
     font-size: 20px;       
     background-color: whitesmoke;
-    margin: 20px 20px 20px 23px;
+    margin: 15px 20px 20px 23px;
     border: 2px solid green;
     padding: 5px;
-    overflow: hidden;  
+    overflow: hidden; 
+    width: 80%;
 } 
 .email__completo{
     text-align: left;
@@ -392,7 +381,8 @@ h3{
     margin: 15px 20px 20px 23px;
     border: 2px solid green;
     padding: 5px;
-    overflow: hidden;  
+    overflow: hidden;
+    width: 80%;  
 } 
 .telefono__1{
     text-align: left;
@@ -401,7 +391,8 @@ h3{
     margin: 15px 20px 20px 23px;
     border: 2px solid green;
     padding: 5px;
-    overflow: hidden;  
+    overflow: hidden;
+    width: 80%;
 } 
 
 .submit__submit{
@@ -411,7 +402,8 @@ h3{
     margin: 15px 20px 20px 23px;
     border: 2px solid green;
     padding: 5px;
-    overflow: hidden;  
+    overflow: hidden;
+    width: 80%;
 } 
 
 .reset__reset{
@@ -421,13 +413,17 @@ h3{
     margin: 15px 20px 20px 23px;
     border: 2px solid green;
     padding: 5px;
-    overflow: hidden;  
+    overflow: hidden; 
+    width: 80%; 
 } 
 
 
 /*                         Sobre Nosotros                        */
 
+.contenido__sobrenos{
+    margin-left: 6px;
 
+}
 .sobre__nosotros{
     text-align: center;
     font-size: 30px;       
@@ -438,7 +434,6 @@ h3{
     padding: 10px;
     overflow: hidden;
     margin-top:50px;
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
@@ -453,7 +448,8 @@ h3{
     border: 6px solid green;
     padding: 10px;
     overflow: hidden;
-    margin-top: 10rem;
+    margin-top: 2rem;
+    width: 80%;
 
 }
 
@@ -568,7 +564,12 @@ h3{
     }
 
      /* sobre nosotros */
-     
+     body{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top , rgb(128, 39, 39) , beige);
+    
+    }
      
 
 
@@ -597,15 +598,13 @@ h3{
     .foto__1{
        
         max-width: 70%;
-        
-        
+            
     }
      
      .foto__1:hover{
         
         transition: 1s;
-     
-     
+        
     }
      .foto__2{
         
@@ -638,9 +637,9 @@ h3{
     .footer__uno{
         margin-top: 650px;
         margin-left: 10px;
- }
+    }
  
- 
+     
  
 }
 
