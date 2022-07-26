@@ -12,8 +12,8 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(to top , rgb(128, 39, 39) , beige);
 }
  
@@ -267,10 +267,22 @@ h3{
     box-shadow: 3px 3px black;
     transition: 2s;
 }
+.footer__dos{
+    text-align: center;
+    font-family: 'Roboto', sans-serif bold;
+    font-size: 0.7rem;       
+    background-color: whitesmoke;
+    margin: 100px 20px 20px 50px;
+    border: 30px;
+    border: 3px solid rgb(3, 74, 3);
+    padding: 5px;
+    overflow: hidden;
+    width: 80%;
+    
+}
+
 
 /*                     Lista de Productos               */
-
-
 
 .lista ul li{
     display: flex;
@@ -318,11 +330,12 @@ h3{
     font-family: 'Roboto', sans-serif bold;
     font-size: 0.7rem;       
     background-color: whitesmoke;
-    margin: 530px 20px 20px 50px;
+    margin: 530px 20px 20px 20px;
     border: 30px;
     border: 3px solid rgb(3, 74, 3);
     padding: 5px;
     overflow: hidden;
+    width: 80%;
 
 }
 
@@ -437,11 +450,13 @@ h3{
     font-family: 'Roboto', sans-serif bold;
     font-size: 0.7rem;       
     background-color: whitesmoke;
-    margin: 530px 20px 20px 50px;
+    margin: 170px 20px 20px 50px;
     border: 30px;
     border: 3px solid rgb(3, 74, 3);
     padding: 5px;
     overflow: hidden;
+    width: 80%;
+    margin-left: 10px;
 
 }
 
@@ -488,7 +503,7 @@ h3{
         font-weight: bold;
         font-size: 0.6rem;
         align-items: center;
-        /*display:flex*/
+        
     }
 
 
@@ -578,15 +593,15 @@ h3{
     }
     .footer__sobrenos{
         margin-top: 380px;
-        margin-left: 12px;
+        margin-left: 40px;
     }
 
     /* pagina producto  */
+
     body{
         width: 100%;
         height: 100%;
         background: linear-gradient(to top , rgb(128, 39, 39) , beige);
-    
     }
 
     .titulo__productos{
@@ -594,44 +609,37 @@ h3{
       
     }   
     .nota__producto{
-       
-        margin: 15px 20px 20px 40px;
-       
+        margin: 15px 20px 15px 40px;
+     
     }
     .contenedor__imagenes{
         margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-bottom: 4rem;
     }    
     .foto__1{
-       
         max-width: 70%;
-            
     }
-     
-     .foto__1:hover{
-        
+    .foto__1:hover{
         transition: 1s;
-        
     }
      .foto__2{
-        
-         max-width: 70%;
-         
+        max-width: 70%;
     }
      .foto__2:hover{
-         
-         transition: 1s;
+        transition: 1s;
     }    
      .foto__3{
-        
-         max-width: 70%;
-         
+        max-width: 70%;
     }
      .foto__3:hover{
-         
-         transition: 1s;
+        transition: 1s;
     }
  
+    .footer__dos{
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
        /* lista de productos */ 
 
     body{
@@ -643,14 +651,48 @@ h3{
  
     .footer__uno{
         margin-top: 810px;
-        margin-left: 10px;
+        margin-left: 40px;
     }
+      
+      /* Contacto  */
+
+    body{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top , rgb(128, 39, 39) , beige);
+    }
+    .formulario__contacto{
+       margin-left: 40px;  
+      }
+    
+    .nombre__yapellido{
+       margin-left: 40px;
+    } 
+    .email__completo{
+       margin-left: 40px;
+    } 
+    .telefono__1{
+       margin-left: 40px;
+    } 
+    
+    .submit__submit{
+       margin-left: 40px;
+    } 
+    
+    .reset__reset{
+       margin-left: 40px; 
+    } 
  
-     
- 
+    .footer{
+        margin-top: 115px;
+        margin-left: 40px;
+
 }
 
+      
 
+
+      
 
 
 @media (min-width: 751px) and (max-width: 2140){
